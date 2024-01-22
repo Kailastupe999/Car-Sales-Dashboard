@@ -32,7 +32,6 @@ Various measures, including time intelligence functions and aggregate functions,
 
   * `YOY Avg growth = DIVIDE(([YTD Average Price]-[PY-YTD avg price]),[PY-YTD avg price])`
   * `MTD Cars sold = "MTD Cars Sold:"&
-  * 
  FORMAT(TOTALMTD(COUNT(car_data[Car_id]),car_data[Date])/1000,"0.00K")`
 
 
